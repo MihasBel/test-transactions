@@ -2,7 +2,7 @@ version: "3.9"
 
 services:
   kafka-ui:
-    container_name: spacebox-kafka-ui
+    container_name: transaction-kafka-ui
     image: provectuslabs/kafka-ui:latest
     ports:
       - '8080:8080'
@@ -22,7 +22,7 @@ services:
     environment:
       - ALLOW_ANONYMOUS_LOGIN=yes
     restart: unless-stopped
-    container_name: spacebox-zookeeper
+    container_name: transaction-zookeeper
     volumes:
       - ./volumes/zookeeper:/bitnami/zookeeper
   kafka:
