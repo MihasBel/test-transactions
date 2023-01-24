@@ -9,7 +9,7 @@ REST-full API to create and get transactions
 
 ## Service part
 
-[Srevice repo](https://github.com/MihasBel/test-transactions-servise) 
+[Srevice repo](https://github.com/MihasBel/test-transactions-service) 
 Service to consume and save transactions to DB and read transactions from DB
 
 ## broker/model
@@ -19,9 +19,6 @@ contains common models for kafka
 Uses to up and running all infrastructure 
 
 TODO:
-- create interface to work with postgresql. 
-- set up consumer from kafka. 
-- setup grps connection between service and API. 
 - setup jwt token. 
 - add to compose file API and service. 
 - create tests. 
